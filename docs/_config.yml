@@ -1,6 +1,12 @@
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "dark"
 locale: "en-GB"
-title: "Ben's Go at a Website"
+title: "BibblyBobblyBlogs"
 plugins:
  - jekyll-include-cache
+
+author:
+ name : "Bibbly Bobbly"
+ avatar: "assets/onthebeers.jpg"
+ bio: "Just some geezer"
+ location : "Usually quite lost" 
