@@ -6,7 +6,16 @@ plugins:
  - jekyll-include-cache
 
 author:
- name : "Bibbly Bobbly"
- avatar: "assets/onthebeers.jpg"
- bio: "Just some geezer"
- location : "Usually quite lost" 
+ name : "Benjamin Mawdsley"
+# avatar: "assets/onthebeers.jpg"
+ bio: "Data Scientist with a background in cosmology."
+# location : "Usually quite lost" 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
