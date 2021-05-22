@@ -8,12 +8,4 @@ classes: wide
 ---
 
 Welcome to this collection of blog posts. Here you'll find an assortment of data related projects, explanations and ideas. I hope you find something interesting! 
-<!---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
--->
+

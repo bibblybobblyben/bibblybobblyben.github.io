@@ -19,3 +19,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+markdown: kramdown
+kramdown:
+    math_engine: katex
