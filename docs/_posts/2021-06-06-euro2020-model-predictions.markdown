@@ -79,4 +79,6 @@ Scotland| |0.2|0.9|3.7|12.9|40.2|
 
 # Most likely team to reach a given position
 
-![dghh](/assets/football_euro2020/all_tournament.png "Most likely tournament positions without Kevin De Bruyne")
+Through running the simulations many times, we can plot the most likely team to appear at any given position in the tournament. As teams can take multiple routes to the final, they can appear in multiple places. For example, Spain is expected to win their group, but in the less likely event that they come second, they are highly likely to win their last 16 game anyway and progress. It is likely that the difficult group that France are in, meaning they face England and Spain if they come second or Italy and Belgium, or possible still Spain, if they come first, means they have a tough route to the final off the back of a difficult group, reducing their probability of winning. Belgium are highly likely to win their group and last 16 match, before facing the difficult opponents of Italy and France. Further, the fact Belgium have a 20% chance of winning the tournament is not solely due to the 21% chance of reaching the first half final slot - there is a non zero probability they progress through the second half of the draw. 
+
+![dghh](/assets/football_euro2020/all_tournament.png "Most likely tournament positions")
