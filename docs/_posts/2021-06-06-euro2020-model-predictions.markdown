@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Euro 2020 predictions"
+title:  "Euro 2020 - whole torunament predictions"
 date:   2021-06-06 12:00:00 +0000
 categories: statistics sports
 excerpt: "Find out the teams predicted to do well in Euro 2020 according to the model"
