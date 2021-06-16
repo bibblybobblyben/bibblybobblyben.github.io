@@ -8,9 +8,12 @@ header:
   teaser: assets/thumbnails/BayesRule.png
 ---
 
-Probabilities of the number of goals expected to be scored by each team in each group game of the tournament have also been claculated. For each group game, the probability of a number of goals being scored by a given team has been listed for every match, with the most likely value highlighted in bold.
+
+Using the model for predicting football matches, we can simulate each group game thousands of times with different parameters and observe the frequency of different results. This page shows the results of doing so, broken down by Euro 2020 groups. The probability of each team scoring a given number of goals is shown, followed by the decimal odds for each team winning that match, or a draw. 
+
 
 # Group A
+
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
@@ -21,6 +24,11 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.01|0.11|0.19|**0.26**|0.21|0.2| Italy | | Switzerland |**0.4**|0.28|0.15|0.15|0.02|0.0| 
 |0.04|0.08|0.16|**0.3**|0.17|0.24| Switzerland | | Turkey |0.24|0.23|**0.25**|0.14|0.1|0.01| 
 |0.0|0.02|0.13|0.3|**0.3**|0.25| Italy | | Wales |**0.42**|0.35|0.18|0.05|0.0|0.0| 
+
+
+Group A contains teams which look quite well matches, with **Italy** being the popular favourites to win the group, especially off the back of their good form coming into the tournament. Our model agrees with this; Italy are expected to keep a clean sheet in every game they play, with a probability of conceding 0 goals greater than 0.4 in every match. They are also expected to score several goals, with significant uncertainty on the number but typically around 2 per match, meaning they should win the group. 
+
+Turkey, Wales and Switzerland all look well matched with decimal odds having no runaway favourite in any of their matches. Whilst **Turkey** are expected to score 1 goal to Wales' 0, **Wales** do have higher probabilities of scoring the larger number of goals, indicating that Turkey will be relying on their defence being solid in this group. In the final round of fixtures, Turkey against **Switzerland** is expected to be high scoring, and Wales will be hoping to qualify before facing the strong Italian side in the final match.
 
 ## Individual fixture odds
 
@@ -47,6 +55,10 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.01|0.06|0.16|0.25|**0.26**|0.25| Finland | | Russia |**0.29**|0.25|0.23|0.15|0.07|0.02| 
 |0.0|0.02|0.08|0.21|0.31|**0.38**| Russia | | Denmark |**0.23**|0.18|0.2|0.17|0.11|0.07| 
 |0.0|0.01|0.06|0.2|0.33|**0.4**| Finland | | Belgium |0.14|0.16|**0.22**|0.21|0.15|0.08| 
+
+Group B also has a clear favourite, this time in the shape of **Belgium** who qualified scoring 40 goals. Kevin De Bruyne's injury may dent their title hopes, removing some of their attacking threat but they are expected to clearly beat all teams in this group, so may not need to rush him back. The model expects them to win emphatically against **Russia**, being strong favourites with the odds and expected to score 3 goals, before facing Denmark in a tight game they are expected to edge 1-0. Belgium are the favourites to win the tournament according to the model, partly due to the high probability they have of winning this group.
+
+**Finland** are predicted to struggle to score, but can take hope from the model believing a 1-0 victory against Russia is feasible and would put them in a strong place to qualify. **Denmark** are some people's dark horses for the tournament and are favourites to win the games against Russia and Finland, being underdogs in the match against Belgium. Whilst Bekgium are favoured to win this game, they are not odds-on, suggesting a tight game that either side could hope to take a result from.
 
 ## Individual fixture odds
 
@@ -76,6 +88,11 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.0|0.02|0.08|0.22|0.33|**0.36**| North Macedonia | | Netherlands |0.19|0.21|**0.25**|0.19|0.1|0.04| 
 |0.01|0.03|0.12|0.24|0.28|**0.32**| Ukraine | | Austria |**0.25**|0.21|0.23|0.17|0.09|0.04| 
 
+
+Group C expects the **Netherlands** to win against North Macedonia and Ukraine, but finding Austria a tougher opponent. They are however expected to score multiple goals against Austria, meaning that if they take their chances they should be confident of outscoring them and winning all 3 matches to win the group.
+
+**Austria** are expected to come second in the group, with an opening game against North Macedonia where they shouldn't concede many goals. **North Macedonia** then beating Ukraine, as the model also suggests is possible, would leave Austria in a strong position. The North Macedonians are not expected to be high scoring by the model. **Ukraine** would then need to beat Austria in their final match to have a chance of progressing, but their attacking ability is reflected in the goal scoring odds when they regularly have a decent chance of scoring 2 goals in a game.
+
 ## Individual fixture odds
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
@@ -101,6 +118,10 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.07|0.14|0.2|**0.23**|0.18|0.15| Croatia | | Czech Republic |**0.24**|0.19|0.22|0.17|0.11|0.05| 
 |0.0|0.02|0.09|0.22|0.3|**0.37**| Czech Republic | | England |0.16|0.13|0.16|**0.17**|0.14|0.1| 
 |0.07|0.14|0.2|**0.22**|0.18|0.15| Croatia | | Scotland |**0.31**|0.24|0.21|0.14|0.07|0.02| 
+
+Group D contains another one of model's favourites for the tournament, England. They are also clear favourites for each game, expected to score highly. In the Scotland game, the model has a wide range of uncertainty spreading from 0 goals to 4 goals for England, compared to the nearly 50% chance of Scotland failing to score against England. If England start with a win against Croatia as the model believes, they will be in a commanding position to win the group. 
+
+**Croatia** similarly are not expected to struggle against the Czech Republic or Scotland, but the model believes they are a long way behind England so should not expect to take much from that match. **Scotland** and the **Czech Republic** will therefore be battling for third place - the model expects their head to head to be tight, with the Czechs the favourites to win by edging out the low scoring Scots. 
 
 ## Individual fixture odds
 
@@ -130,6 +151,11 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.01|0.05|0.13|0.21|0.26|**0.34**| Slovakia | | Spain |0.15|0.13|**0.18**|0.18|0.15|0.1| 
 |0.01|0.03|0.11|0.23|0.28|**0.35**| Sweden | | Poland |**0.28**|0.24|0.23|0.15|0.07|0.02| 
 
+
+**Spain** are odds-on favourites for every game in their group and expected to win it. The Spanish team is not as highly rated as the strong side of 2008-2012 and is rebuilding, but has quietly been accuring some good results - 6-0 against Germany in the Nations League is one example. 
+
+**Poland** are second favourites but their matches against the other group emmbers are much closer, suggesting that second place in this group is firmly up for grabs. They have over a 1 in 4 chance of scoring against Spain, so if they can keep a clean sheet they may cause a surprise at the top of the group, but are expected to find their remaining fixtures in the group difficult too. **Slovakia** are favourites to come third in the group, but are only slight underdogs against Poland. They have the edge against Sweden, so could go into their final game against Spain in a strong position for qualifying for the next round. **Sweden** are expected to struggle, with a low likelihood of scoring in each of their ties.
+
 ## Individual fixture odds
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
@@ -157,6 +183,11 @@ Probabilities of the number of goals expected to be scored by each team in each 
 |0.07|0.12|0.2|**0.21**|0.18|0.18| Portugal | | Germany |**0.29**|0.27|0.25|0.14|0.05|0.01| 
 |0.05|0.11|0.18|**0.22**|0.2|0.21| Germany | | Hungary |**0.28**|0.26|0.24|0.15|0.06|0.02| 
 |0.01|0.05|0.15|0.25|**0.28**|0.27| Portugal | | France |**0.27**|0.25|0.24|0.15|0.07|0.02| 
+
+
+The final group is the most competitive. The model has no clear favourite to win the group, but both **France** and **Portugal** are expected to beat Germany - so much so, they are odds-on favourites. This is not the case with the bookmakers. In their head to head, France just have the edge, reflected in their slightly higher likelihood of winning the group, but both could hope to win the group. 
+
+**Germany** are likely too be looking to try and qualify as a third placed side, probably by trying to beat **Hungary** in their match. As both are expected to lose against the other two sides in the group, this match is set to be a decider for third. Germany are favourites, but not odds on. It might not be the obvious result it looks on paper, but Hungary are not likely to score many so will need a solid defensive performance to win, but the model believes they can have a reasonable chance of scoring against the German defence. 
 
 ## Individual fixture odds
 
