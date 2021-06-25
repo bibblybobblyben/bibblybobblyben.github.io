@@ -27,3 +27,4 @@ analytics:
   google:
     tracing_id: "G-8GXF92ZJDS"
     anonymize_ip: true
+google_analytics: "G-8GXF92ZJDS"
