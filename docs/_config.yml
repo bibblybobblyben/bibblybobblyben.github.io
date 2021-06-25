@@ -25,7 +25,7 @@ kramdown:
 analytics:
   provider: "google-universal"
   google:
-    tracking_id: "G-8GXF92ZJDS"
+    tracking_id: "UA-200530391-1"
     anonymize_ip: true
 
 
