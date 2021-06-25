@@ -5,7 +5,7 @@ date:   2021-06-06 12:00:00 +0000
 categories: statistics sports
 excerpt: "Predicting Euro 2020 fixtures in the group stages according to the statistical model, presented as bookmaker odds and probabilities of goals."
 header:
-  teaser: assets/thumbnails/BayesRule.png
+  teaser: /assets/football_euro2020/group_match_odds.png
 ---
 
 

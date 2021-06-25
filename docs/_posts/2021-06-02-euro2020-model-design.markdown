@@ -5,7 +5,7 @@ date:   2021-06-02 12:00:00 +0000
 categories: statistics sports
 excerpt: "A simple model for a simple game"
 header:
-  teaser: assets/thumbnails/BayesRule.png
+  teaser: /assets/football_euro2020/TeamAttackRankings.png
 ---
 
 Having introduced our simple reweighting of goals in [my other post]({% post_url 2021-06-02-euro202-model-intro %}), now we'll try and use the scores to predict the winners of football games in the upcoming tournament. I am going to stick to just using attacking metrics to predict the number of goals scored by each team, and will leave a combined analysis of attacking and defensive stats for a later date. 
@@ -25,7 +25,12 @@ The steps taken to simulate a game are therefore:
 
 For the interested, the distributions are always Gaussian, which is a drastic oversimplification of reality. This is likely to give underdogs an overrated chance of winning and favourites an underweighted chance. Repeating this process many times allows us to produce probabilities for the outcomes. 
 
+## The team rankings
+The figure below shows the attacking ratings for every team in the tournament. The histogram shows the distribution of all attacking ratings recorded in their fixtures, and the solid orange lines shows the Gaussian distribution approximation. 
 
+![dghh](/assets/football_euro2020/TeamAttackRankings.png "Team attacking abilities")
+
+Teams such as Finland and Scotland have almost all of their matches having a low attacking ranking, whereas Spain and Belgium have a much higher likelihood of getting a high attack ranking in any given game. The approximation works to different extents for different teams; Austria's true distribution is not too dissimilar to the Gaussian profile, but England, Wales and Slovakia deviate somewhat. Choosing a dsitribution that more accurately reproduces these profiles may result in beter performance. However, the profiles are somewhat close to the truth so we will persist with the use of Gaussians for the time being.    
 
 
 ## Comparing the two models

@@ -1,17 +1,17 @@
 ---
 layout: posts
-title:  "Euro 2020 - whole torunament predictions"
+title:  "Euro 2020 - whole tournament predictions"
 date:   2021-06-06 12:00:00 +0000
 categories: statistics sports
-excerpt: "Find out the teams predicted to do well in Euro 2020 according to the model"
+excerpt: "Find out the teams predicted to do well in Euro 2020 "
 header:
-  teaser: assets/thumbnails/BayesRule.png
+  teaser: /assets/football_euro2020/winning_probs.png
 ---
 
 Through running many simulations of the tournament, probabilities can be calculated for each team's performance at Euro 2020. This page details the predictions made for group winners and overall tournament winners using the Gaussian model. 
 
 ## Group Winner
-
+First, we evaluate how likely each team is to appear in each position in their group, shown in the table below.  
 
 |Team|Winner|Runner up|Third|Last| 
  |---|---|---|---|---| 
@@ -47,7 +47,11 @@ France|0.4|0.3|0.19|0.1|
 Germany|0.15|0.23|0.32|0.31| 
 
 
+England are the team most expected to win their group, closely followed by Belgium and Spain who are all over 50% likely to top their groups. Italy and the Netherlands are only slightly less that 50% likely to win their groups, with the competitibe Group F the only one with no clear expected winner. Hungary, Scotland and Russia are all expected to struggle. Group A is particularly competitive, where any of the three teams after Italy have reasons to aim for qualifying for the next round, with Turkey being the weakest of these sides.  
+
 ## Tournament Winner 
+
+Including the knockout rounds, we can calculate how likely each team is to win the whole tournament, shown in the table below. 
 
 |Team|% Probability of:| Winning|Finalist|Semi-finalist|Quarter Finalist|R16| 
  |--|-|---|-|-|-|-| 
@@ -76,9 +80,14 @@ Czech Republic| |0.3|1.6|5.9|19.3|56.8|
 Hungary| |0.3|1.0|3.3|11.8|40.8|  
 Scotland| |0.2|0.9|3.7|12.9|40.2|  
 
+Belgium and Italy are highly favoured by the model, with their likely clash in the quarter finals. France have quite a low probability, a combination of their mixed results over the past year and their very difficult path out of the group - their 40% probability of winning the group is the lowest of any expected group winner. If they finish second, they also face the task of beating England, who the model rates highly. Denmark are surprisingly rated highly, due to their solid defence and good results against highly ranked teams. They are also in a group they are expected to perform well in, and should avoid the side of the draw with Belgium and Italy in, further increasing their chances of making the final.
+
 
 # Most likely team to reach a given position
 
-Through running the simulations many times, we can plot the most likely team to appear at any given position in the tournament. As teams can take multiple routes to the final, they can appear in multiple places. For example, Spain is expected to win their group, but in the less likely event that they come second, they are highly likely to win their last 16 game anyway and progress. It is likely that the difficult group that France are in, meaning they face England and Spain if they come second or Italy and Belgium, or possible still Spain, if they come first, means they have a tough route to the final off the back of a difficult group, reducing their probability of winning. Belgium are highly likely to win their group and last 16 match, before facing the difficult opponents of Italy and France. Further, the fact Belgium have a 20% chance of winning the tournament is not solely due to the 21% chance of reaching the first half final slot - there is a non zero probability they progress through the second half of the draw. 
+We can also plot the most likely team to appear at any given position in the tournament. As teams can take multiple routes to the final, they can appear in multiple places. For example, Spain is expected to win their group, but in the less likely event that they come second, they are highly likely to win their last 16 game anyway and progress. Another example is Italy - they are expected to win their group, but are more likely to come second than any of the other teams, due to how evenly matched they are.  
 
 ![dghh](/assets/football_euro2020/all_tournament.png "Most likely tournament positions")
+
+
+It is likely that the difficult group that France are in, meaning they face England and Spain if they come second or Italy and Belgium, or possibly still Spain, if they come first, means they have a tough route to the final off the back of a difficult group, reducing their probability of winning. Belgium are highly likely to win their group and last 16 match, before facing the difficult opponents of Italy and France. Further, the fact Belgium have a 20% chance of winning the tournament is not solely due to the 21% chance of reaching the first half final slot - there is a non zero probability they progress through the second half of the draw.
