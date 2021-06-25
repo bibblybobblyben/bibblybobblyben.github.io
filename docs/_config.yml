@@ -22,4 +22,9 @@ defaults:
 markdown: kramdown
 kramdown:
     math_engine: katex
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-8GXF92ZJDS"
+    anonymize_ip: true
 
