@@ -21,7 +21,15 @@ The first match sees the runners up in Group A face the second placed side in Gr
 Denmark have a slightly less than 50% chance of progressing from this game, aided by having one of the best defences in the tournament and a higher attacking rating than Wales.  
 
 ### Bookmakers comparison
-These odds compare somewhat similarly to bookmakers, with Denmark typically quoted at around 1.8. Our model gives Wales a higher chance than the bookmakers, who are currently pricing Wales at 5.0. Considering the attacking ranking Gaussian distribution, this is likely due to our model over-estimating the probability of Wales having a high scoring game. 
+These odds compare somewhat similarly to bookmakers, with Denmark typically quoted at around 1.8. Our model gives Wales a higher chance than the bookmakers, who are currently pricing Wales at 5.0. Considering the attacking ranking Gaussian distribution, this is likely due to our model over-estimating the probability of Wales having a high scoring game.
+
+## Form-based model
+
+An alternative form of the model applies a higher weight to more recent results, and a lower weight to older scores. Applying this weighting produces the probabilities below. The probabilities chance very little in this situation.  
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |3.81|**Wales**|3.74|**Denmark**|2.13| 
 
 ## Goal scoring probabilities
 
@@ -40,6 +48,18 @@ Next up sees the best defensively ranked side Italy play Austria, who came secon
 
 ### Bookmakers comparison
 Again our odds are quite similar to the bookmakers, in agreeing that there is a strong favourite. Prices for Italy are currently at around 1.45, whereas Austria are at around 8, meaning we are giving Austria a slightly better chance than the bookies. However, unlike Wales in the above example, both Italy and Austria seem to fit our model relatively well, but a good result for Austria is still a long bet. Our likelihood of a draw is almost equivalent to the bookies, which currently price it at 4.2.
+
+## Form-based model
+
+Italy's long running winning streak and consecutive clean sheets mean that the form based reweighting of the model is even more confident of an Italy victory, giving Austria only approximately a 10% chance of winning. 
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |1.43|**Italy**|5.1|**Austria**|9.47| 
+
+
+
+
 
 ## Goal scoring probabilities
 
@@ -60,6 +80,16 @@ The winners of Group C play the third place team in Group D, who had been leadin
 
 ### Bookmakers comparison
 Bookies are currently quoting Netherlands at 1.66, giving them a very slightly smaller chance than our model, whereas Czech Republic are currently priced at 5.5, which is pretty similar to our probability. The main disagreement is in the probability of a draw, which is much more likely in the bookmaker's opinions, priced at 3.75. 
+
+
+## Form-based model
+
+Considering recent form, the Czech Republic have a slightly improved chance, based off good results in the group stages and a down weighting of early qualifying results, such as the 5-0 defeat to England. They are still an outside bet though, at just under 25% chance of winning. 
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |1.66|**Netherlands**|5.82|**Czech Republic**|4.43| 
+
 
 
 ## Goal scoring probabilities
@@ -83,6 +113,14 @@ The Group B winners, and pre-tournmanent model favourites, Belgium play Portugal
 ### Bookmakers comparison
 Bookmakers are currently pricing Belgium at 2.45, and Portugal at 3.00, meaning they are very unsure of the outcome. This is in stark contrast to the model we use, which would view any result other than  Belgium win to be quite an upset. In the 
 [rankings]({% post_url 2021-06-24-euro2020-last16-predictions_knockout_updated %}), Belgium are significantly strong than Portugal in attack and slightly better defensively, so it is not too surprising the model doesn't rate Portugal's chances. 
+
+
+## Form-based model
+The form based model is slightly less sure of a Belgium win, but they are still odds-on favourites. Portugal had some mixed results in a difficult group, but have been able to score freely, and Belgium have won games that they would have been expected to win, albeit perhaps not by as high margins as expected. 
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |1.91|**Belgium**|4.87|**Portugal**|3.69|
 
 
 ## Goal scoring probabilities
@@ -110,6 +148,14 @@ Spain were slow to get going in this tournament, playing out two slow draws befo
 
 Bookies are currently quoting prices very similar to our model. with 6.00 for Croatia and 1.6 for Spain, indicating they are similarly confident in the outcome. They rank the draw much more likely than our model, at 3.7.  
 
+## Form-based model
+
+Even though Spain's recent form has been mixed, with a slow start to the group campaign before emphatically beating Slovakia, their form still gives them a slightly improved chance of winning the group. Croatia have also had a poor Euros so far, only qualifying due to a victory against Scotland on the final game. Concededing against Scotland is not likely to have helped them in the model though, where Spain are one of the better attacking sides. They are quite a long shot to win this game, from the model's perspective.
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |6.72|**Croatia**|7.07|**Spain**|1.41|
+
 ## Goal scoring probabilities
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
@@ -130,6 +176,16 @@ The world champions France, having won the most difficult group, play Switzerlan
 
 ### Bookmakers comparison
 Bookmakers favour France considerably more strongly than our model does, with them being priced at 1.5 and Switzerland at 7.00, under half the probability we give them of winning. The model does give Switzerland a higher probability of higher attacking performances than the distribution of results suggests, this is skewed by the fact they have had a few high scoring games. For example, a 3-3 against Germany, and have managed to score against both Belgium and Spain. They may therefore have the potential to score against the French, but will need to keep things tight in defence. They did not manage to do so against Italy in the knockout rounds, a similarly ranked team for attacking potential to France.
+
+
+## Form-based model
+
+France have drawn against Hungary and Portugal and beaten Germany, whereas Switzerland drew against Wales, beat Turkey and lost to Italy. Accounting for this form causes one of the larger shifts in the model output, with France now comfortable favourites to win the game. Switzerland's chances fall from about 33% without considering form, down to almost 20% when form is considered.
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |1.6|**France**|6.56|**Switzerland**|4.49| 
+
 
 
 ## Goal scoring probabilities
@@ -155,6 +211,14 @@ Our model gives England a much better chance than the bookies, who currently pri
 
 
 
+## Form-based model
+
+England have yet to concede in this tournament, whereas Germany have conceded in every game they have played, leading the model to become even more confident in an England victory.  All signs therefore point to a surprise 1-0 to Germany. Germany are given a staggeringly small chance of only 15.5% of winning this match, and England rated at almost 70% to win.
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |1.44|**England**|6.56|**Germany**|6.45|
+
 ## Goal scoring probabilities
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
@@ -176,6 +240,15 @@ The final match in the last 16 sees the winners of Group E Sweden play Ukraine, 
 
 ### Bookmakers comparison
 The bookmakers also consider it to be quite an even contest, pricing Sweden at 2.25 and Ukraine at 3.3, meaning they are slightly more confident in Sweden winning this one. They may be applying more weight to Sweden's recent form and good showings against highly rated sides such as Poland and Spain, whereas our model also considers longer term historical results across the past few years. 
+
+
+## Form-based model
+
+Sweden's perforances in the group stages give them a slightly better chance of progressing, bringing our odds into closer alignment with that currently offered by the bookmakers. They have been improved defensively and managed to score against both Poland and Slovakia, which suggests they could have the solidity to keep Ukraine at bay whilst getting the goal they ened to progress. 
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |2.21|**Sweden**|4.59|**Ukraine**|3.04|
 
 
 ## Goal scoring probabilities
