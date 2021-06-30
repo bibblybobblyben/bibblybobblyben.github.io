@@ -1,0 +1,98 @@
+---
+layout: posts
+title:  "Euro 2020 - England are now favourites for the title"
+date:   2021-06-24 12:00:00 +0000
+categories: statistics sports
+excerpt: "But Italy are the best team still in the tournament"
+header:
+  teaser: /assets/football_euro2020/all_tournament_postgroups_newweights.png
+---
+
+
+|Team|% Probability of:| Winning|Finalist|Semi-finalist|Quarter Finalist|R16| 
+ |--|-|---|-|-|-|-| 
+England| |22.4|45.5|76.3|100.0|100.0|  
+Italy| |20.5|33.4|51.6|100.0|100.0|  
+Belgium| |18.8|31.1|48.4|100.0|100.0|  
+Denmark| |18.0|40.3|76.6|100.0|100.0|  
+Spain| |13.5|26.0|65.1|100.0|100.0|  
+Switzerland| |3.6|9.6|34.9|100.0|100.0|  
+Ukraine| |2.0|7.9|23.7|100.0|100.0|  
+Czech Republic| |1.3|6.3|23.4|100.0|100.0|
+
+
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |3.15|**England**|3.66|**Italy**|2.44|
+
+ |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |2.74|**Belgium**|3.82|**Italy**|2.68| 
+
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |3.41|**Spain**|4.06|**Italy**|2.17| 
+
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |3.37|**Denmark**|3.58|**Italy**|2.36| 
+
+
+ # Quarter final predictions 
+
+
+<h1 style="text-align: center; font-size:32px;background-color:mediumslateblue;padding:20px;">Switzerland vs Spain</h1>
+
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |3.67|**Switzerland**|5.82|**Spain**|1.8| 
+
+
+|5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
+ |0.02|0.08|0.17|**0.26**|0.26|0.21| Switzerland | | Spain |0.12|0.17|**0.22**|0.21|0.15|0.08| 
+
+
+<h1 style="text-align: center; font-size:32px;background-color:mediumslateblue;padding:20px;">Belgium vs Italy</h1>
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |2.79|**Belgium**|3.76|**Italy**|2.66|
+
+
+
+|5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
+ |0.0|0.02|0.11|0.25|**0.32**|0.29| Belgium | | Italy |0.29|**0.31**|0.26|0.11|0.03|0.0| 
+
+
+
+
+<h1 style="text-align: center; font-size:32px;background-color:mediumslateblue;padding:20px;">Czech Republic vs Denmark</h1>
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |6.14|**Czech Republic**|5.94|**Denmark**|1.49| 
+
+|5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
+ |0.0|0.02|0.08|0.22|0.32|**0.36**| Czech Republic | | Denmark |0.13|0.17|**0.21**|0.19|0.14|0.08|
+
+
+
+<h1 style="text-align: center; font-size:32px;background-color:mediumslateblue;padding:20px;">Ukraine vs England</h1>
+
+|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
+ |-|-|-|-|-| 
+ |6.7|**Ukraine**|6.05|**England**|1.46| 
+
+
+
+
+|5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
+ |0.0|0.01|0.07|0.22|0.33|**0.36**| Ukraine | | England |0.13|0.17|**0.21**|0.2|0.14|0.09| 
