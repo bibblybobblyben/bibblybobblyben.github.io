@@ -26,14 +26,20 @@ It gained further credence once these sceptics rediscovered a familiar example i
 
 Initially, the testimony of statistics experts such as David Spiegelhalter was used as further evidence, with the difference between the coronavirus example and the textbook "rare disease" example being lost in the debate. When these experts tried to clarify the truth, such as in the BBC "More or Less" programme, a lot of the damage had already been done. 
 
- Unfortunately, the case is not as clear cut as the pandemic sceptics would have liked.  
+Unfortunately, the case is not as clear cut as the pandemic sceptics would have liked.
+     
 
- ## Quantifying false positives
+## Quantifying false positives
 
 The main issue with this argument is how it hinges on the idea of drawing samples from an *unbiased sampling of the population*. If we reconsider the [Bayesian approach]({% post_url 2021-04-27-bayesian-intro %}), we recall that the probability of somebody testing positive can be viewed as happening through a combination of events:
+- Either they have the disease and test positive for it =
   
-- Either they have the disease and test positive for it = $$ P(Pos|D=1)P(D=1) $$
-- or they do not, but are a false positive = $$ P(Pos|D=0)P(D=0) $$
+$$ P(Pos|D=1)P(D=1) $$
+  
+- or they do not, but are a false positive =
+  
+$$ P(Pos|D=0)P(D=0) $$  
+  
 where D=0,1 if the patient does not or does have the disease, respectively and P(Pos) is the probability of testing positive.  
   
 The false negatives come from the second contribution here, i.e   
