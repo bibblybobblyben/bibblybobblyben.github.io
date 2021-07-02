@@ -5,7 +5,7 @@ date:   2021-06-30 12:00:00 +0000
 categories: statistics sports
 excerpt: "But Italy are the best team still in the tournament"
 header:
-  teaser: /assets/football_euro2020/all_tournament_postgroups_newweights.png
+  teaser: /assets/football_euro2020/qf_winningodds.png
 ---
 
 
@@ -14,16 +14,16 @@ After a few shock results in the last 16, we reach the quarter finals. From a pe
 
 Anyway, onto the quarter finals, and we have a new favourite to win the tournament! **England now have a better than 1 in 5 chance of winning the Euros**, significantly helped by being on a side of the draw consisting of teams which the model believes to be weaker. Interestingly, England are not the best team in the model, and would struggle against several teams in the other half of the draw, but they are one of the most likely to reach the final. 
 
-|Team|% Probability of:| Winning|Finalist|Semi-finalist|Quarter Finalist|R16| 
- |--|-|---|-|-|-|-| 
-England| |22.4|45.5|76.3|100.0|100.0|  
-Italy| |20.5|33.4|51.6|100.0|100.0|  
-Belgium| |18.8|31.1|48.4|100.0|100.0|  
-Denmark| |18.0|40.3|76.6|100.0|100.0|  
-Spain| |13.5|26.0|65.1|100.0|100.0|  
-Switzerland| |3.6|9.6|34.9|100.0|100.0|  
-Ukraine| |2.0|7.9|23.7|100.0|100.0|  
-Czech Republic| |1.3|6.3|23.4|100.0|100.0|
+|Team|% Probability of:| Winning|Finalist|Semi-finalist|Quarter Finalist|
+ |--|-|---|-|-|-| 
+England| |22.4|45.5|76.3|100.0| 
+Italy| |20.5|33.4|51.6|100.0|
+Belgium| |18.8|31.1|48.4|100.0|  
+Denmark| |18.0|40.3|76.6|100.0|  
+Spain| |13.5|26.0|65.1|100.0| 
+Switzerland| |3.6|9.6|34.9|100.0|
+Ukraine| |2.0|7.9|23.7|100.0|
+Czech Republic| |1.3|6.3|23.4|100.0|
 
   
 The best team in the model's opinion is **Italy**, having a slight edge over Belgium in their match and would be expected to win against England, as seen in the hypothetical match up below. Their defence is their main strength in the model, but they did concede against Austria in their last 16 match. This defensive strength, based on an incredibly run of clean sheets, has led to them having by far and away the highest defensive ranking, and an attacking rating which is not too dissimilar to sides like France and Portugal.
