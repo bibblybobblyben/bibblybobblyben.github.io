@@ -5,7 +5,7 @@ date:   2021-06-02 12:00:00 +0000
 categories: statistics sports
 excerpt: "Exploring how to quantify attacking and defensive abilities of all teams in this summer's tournament"
 header:
-  teaser: assets/thumbnails/BayesRule.png
+  teaser: assets/thumbnails/football_euro2020/introscatter.png
 ---
 <head>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">

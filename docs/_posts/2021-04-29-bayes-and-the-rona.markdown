@@ -27,3 +27,23 @@ It gained further credence once these sceptics rediscovered a familiar example i
 Initially, the testimony of statistics experts such as David Spiegelhalter was used as further evidence, with the difference between the coronavirus example and the textbook "rare disease" example being lost in the debate. When these experts tried to clarify the truth, such as in the BBC "More or Less" programme, a lot of the damage had already been done. 
 
  Unfortunately, the case is not as clear cut as the pandemic sceptics would have liked.  
+
+ ## Quantifying false positives
+
+The main issue with this argument is how it hinges on the idea of drawing samples from an *unbiased sampling of the population*. If we reconsider the [Bayesian approach]({% post_url 2021-04-27-bayesian-intro %}), we recall that the probability of somebody testing positive can be viewed as happening through a combination of events:
+
+- Either they have the disease and test positive for it = $$ P(Pos|D=1)P(D=1) $$
+- or they do not, but are a false positive = $$ P(Pos|D=0)P(D=0)
+where D=0,1 if the patient does not or does have the disease, respectively and P(Pos) is the probability of testing positive.  
+
+The false negatives come from the second contribution here, i.e   
+  
+P(Pos|D=0)P(D=0)
+  
+which has two components. The probability of testing positive, given the patient is in fact negative, is usually assumed to be constant. It is a characteristic of the medical test being used. The second term however, is where the problems arose. This defines the **probability of the patient not having the disease**. Across a random sampling of the *whole* population, we would expect this probability to be the prevalence of the disease. However, the people presenting themselves for Covid-19 tests are, usually, not a **random** sampling of the population. These are all people who have exhibited symptoms of Covid-19, or have otherwise been exposed or tested positive with a lateral flow test. The likelihood of somebody in this population having Covid-19 is very different to the probability of anyone randomly selected from the population. Therefore, the probability of them not having the disease, $$P(D=0)$$, will be lower than for the population at large. 
+
+Try playing with the calculator at the end of the [Bayesian introduction page]({% post_url 2021-04-27-bayesian-intro %}). For example, assuming a false positive rate of 1% and and true positive rate of 99%, we can run a few tests with different levels of disease in the population being tested.
+- If 1% of the population has the disease, then a positive test still only results in there being a **50%** chance of the individual carrying the disease - the false positives are very high 
+- If we assume the people getting tests are a moderate 10x more likely to have Covid than the general population, then the chances of a positive test being a true Covid case becomes **92%** - the false positives are less of an issue.
+
+This highlights the effect of your sampling strategy on the statistics and probabilites you infer at the other end. It's always important to be aware of the assumptions you are making throughout the process; this is one of the advantages of a Bayesian approach, which enforces you codifying each of them. 
