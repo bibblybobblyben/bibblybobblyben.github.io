@@ -1,13 +1,18 @@
 ---
 layout: posts
 title:  "Euro 2020 - England are now favourites for the title"
-date:   2021-06-24 12:00:00 +0000
+date:   2021-06-30 12:00:00 +0000
 categories: statistics sports
 excerpt: "But Italy are the best team still in the tournament"
 header:
   teaser: /assets/football_euro2020/all_tournament_postgroups_newweights.png
 ---
 
+
+After a few shock results in the last 16, we reach the quarter finals. From a personal point of view, I am not too disappointed that France got knocked out - the model was never a huge fan of them and thought their performances suggested they were over-rated in the popular opinion. The Netherlands losing to the Czech Republic was a significant surprise to both my model and the wider mood, despite some good performances in the group stages. Accurately quantifying recent form for prediction is an interesting problem, especially internationally where there are so few games and often a large gap between them. It is also worth remembering that these are *probabilities*; whilst some results are unexpected, they're not impossible. In the Netherlands vs Czech Republic match for example, there was a red card after the Netherlands missed some great chances, before the Czech Republic then took the momentum and dominated the game. Predicting such a combination of events is incredibly difficult and would require a much more complicated model than mine.  
+  
+
+Anyway, onto the quarter finals, and we have a new favourite to win the tournament! **England now have a better than 1 in 5 chance of winning the Euros**, significantly helped by being on a side of the draw consisting of teams which the model believes to be weaker. Interestingly, England are not the best team in the model, and would struggle against several teams in the other half of the draw, but they are one of the most likely to reach the final. 
 
 |Team|% Probability of:| Winning|Finalist|Semi-finalist|Quarter Finalist|R16| 
  |--|-|---|-|-|-|-| 
@@ -20,28 +25,23 @@ Switzerland| |3.6|9.6|34.9|100.0|100.0|
 Ukraine| |2.0|7.9|23.7|100.0|100.0|  
 Czech Republic| |1.3|6.3|23.4|100.0|100.0|
 
-
+  
+The best team in the model's opinion is **Italy**, having a slight edge over Belgium in their match and would be expected to win against England, as seen in the hypothetical match up below. Their defence is their main strength in the model, but they did concede against Austria in their last 16 match. This defensive strength, based on an incredibly run of clean sheets, has led to them having by far and away the highest defensive ranking, and an attacking rating which is not too dissimilar to sides like France and Portugal.
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
  |-|-|-|-|-| 
  |3.15|**England**|3.66|**Italy**|2.44|
-
- |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
- |-|-|-|-|-| 
- |2.74|**Belgium**|3.82|**Italy**|2.68| 
+  
+**Denmark** are another side which the model has always rated highly, and this still persists to giving them a 18% chance of winning the tournament. They are expected to win their quarter final and play England in the semis, which is a difficult game but one they can win, and they are gaining fans through the adversity they have faced and the way they are playing.  
 
 
-|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
- |-|-|-|-|-| 
- |3.41|**Spain**|4.06|**Italy**|2.17| 
+The bookmakers also have England as the favourites, likely for similar reasons and due to betting activity. They rate Italy at around 20%, but Belgium and Denmark are at 12.5% and 9% whereas Spain are at 25% in their odds, with some stronger disagreement between us there. This model does not account for the effect that a prolonged injury absence for Kevin De Bruyne or Eden Hazard may have on their hopes.  
+
+The combination of the draw lay out and the quality of the sides left in the competition mean that there are 5 sides which the model ranks as having realistic hopes of winning the competition at this stage, promising for an exciting competitive final set of fixtures. 
 
 
-|Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
- |-|-|-|-|-| 
- |3.37|**Denmark**|3.58|**Italy**|2.36| 
 
-
- # Quarter final predictions 
+# Quarter final predictions 
 
 
 <h1 style="text-align: center; font-size:32px;background-color:mediumslateblue;padding:20px;">Switzerland vs Spain</h1>
@@ -51,6 +51,8 @@ Czech Republic| |1.3|6.3|23.4|100.0|100.0|
  |-|-|-|-|-| 
  |3.67|**Switzerland**|5.82|**Spain**|1.8| 
 
+
+The first match is Switzerland vs Spain, after Switzerland beat the world champions on a penalty shoot out. Spain also had an exciting match against Croatia, as they do appear to have found the high scoring form that their results rely on. Our model expects Spain to win this game, but for it to be a high scoring affair again. A most probable score of 2-2 is a first for this model in the tournament, but Spain have a higher probability of scoring a higher number of goals, whereas Switzerland are more likely to score fewer, which explains the strong likelihood of Spain winnning. If they can keep Spain to few goals, Switzerland can be confident of scoring against the Spanish defence. 
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
@@ -63,6 +65,8 @@ Czech Republic| |1.3|6.3|23.4|100.0|100.0|
  |-|-|-|-|-| 
  |2.79|**Belgium**|3.76|**Italy**|2.66|
 
+
+Next is the most well matched tie of the round, pitching two teams against each other which are very well matched. It sees the best attack of Belgium playing against the best defence of Italy, with incredibly little to choose between them. With bookmakers, it seems they have made Italy favourites which is likely due to the injuries sustained by De Bruyne and hazard, which our model does not account for. Both teams are expected to score, with near equal probabilities of scoring any given number of goals. 
 
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
@@ -78,6 +82,9 @@ Czech Republic| |1.3|6.3|23.4|100.0|100.0|
  |-|-|-|-|-| 
  |6.14|**Czech Republic**|5.94|**Denmark**|1.49| 
 
+
+The surprise victory of the Cezch Republic over the Netherlands earns them a quarter final against Denmark, who comprehensively beat Wales. Denmark are one of the stronger defence in our model, resulting in being an overwhelming favourite for this match and expected to keep a clean sheet. 
+
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
  |0.0|0.02|0.08|0.22|0.32|**0.36**| Czech Republic | | Denmark |0.13|0.17|**0.21**|0.19|0.14|0.08|
@@ -90,7 +97,7 @@ Czech Republic| |1.3|6.3|23.4|100.0|100.0|
  |-|-|-|-|-| 
  |6.7|**Ukraine**|6.05|**England**|1.46| 
 
-
+The final game sees tournament favourites England play against Ukraine in Rome. Ukraine scored a last minute winner against 10 man Sweden to progress, but are severe underdogs in this game. England are still yet to concede, and the model expects them to continue this clean sheet run, but there is a decent chance of conceding a single goal. England have scored relatively few goals in this tournament, but they may find some joy against the Ukrainian defence with 2 or 3 goals potentially on the cards. 
 
 
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
