@@ -64,6 +64,7 @@ The goal distributions are also quite tight, with 1-1 again appearing most likel
  |0.01|0.04|0.13|0.26|**0.29**|0.26| England | | Denmark |0.3|**0.31**|0.25|0.11|0.03|0.0| 
 
 ### Form based model
+
 |5|4|3|2|1|0| Team 1|vs|Team 2|0|1|2|3|4|5 
  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
  |0.01|0.05|0.14|0.26|**0.29**|0.26| England | | Denmark |**0.37**|0.33|0.22|0.07|0.01|0.0| 
@@ -97,7 +98,7 @@ If Spain win, their form is similar to Denmark's and both models reach similar p
  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
  |0.0|0.03|0.11|0.25|**0.32**|0.29| Italy | | England |**0.34**|0.32|0.23|0.09|0.02|0.0|
 
- ### Form-based model
+### Form-based model
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
  |-|-|-|-|-| 
@@ -124,7 +125,7 @@ If Spain win, their form is similar to Denmark's and both models reach similar p
  |0.0|0.03|0.11|0.26|**0.31**|0.29| Italy | | Denmark |**0.38**|0.33|0.21|0.07|0.01|0.0| 
 
 
- ### Form-based model
+### Form-based model
 
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
@@ -150,7 +151,7 @@ If Spain win, their form is similar to Denmark's and both models reach similar p
  |0.01|0.05|0.15|0.27|**0.29**|0.24| Spain | | Denmark |0.24|**0.28**|0.26|0.15|0.06|0.01| 
 
 
- ### Form-based model
+### Form-based model
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
  |-|-|-|-|-| 
@@ -176,7 +177,7 @@ If Spain win, their form is similar to Denmark's and both models reach similar p
  |0.01|0.05|0.15|0.27|**0.29**|0.24| Spain | | England |0.21|0.25|**0.26**|0.17|0.08|0.02| 
 
 
- ### Form-based model
+### Form-based model
 
 |Odds of winning | Team 1| Odds of Draw |Team 2|Odds of winning 
  |-|-|-|-|-| 
